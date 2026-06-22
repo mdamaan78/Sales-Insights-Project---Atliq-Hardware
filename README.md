@@ -4,7 +4,7 @@
 
 This project focuses on analyzing sales data of **AtliQ Hardware**, a company dealing in computer hardware and peripherals across India.
 
-The goal was to build an interactive **Power BI dashboard** to help stakeholders track key business metrics and make data-driven decisions instead of relying on manual reporting.
+The goal was to build an interactive **Power BI dashboard** that helps stakeholders track key business metrics and make data-driven decisions instead of relying on manual reporting.
 
 ---
 
@@ -56,8 +56,7 @@ The dataset consists of multiple tables:
 
 - Removed invalid values (0 or negative sales)
 - Converted USD transactions into INR
-- Filtered irrelevant and duplicate records
-- Standardized data formats
+- Filtered duplicate and irrelevant records
 - Built a star schema data model
 
 ---
@@ -85,14 +84,14 @@ A proper relational model was created connecting:
 
 ### 📊 KPIs
 
-- 💰 **Total Revenue:** ₹985M
-- 📦 **Total Sales Quantity:** 2M
+- 💰 Total Revenue: **₹985M**
+- 📦 Total Sales Quantity: **2M**
 
 ### 📉 Visualizations
 
 - Revenue by Market
 - Sales Quantity by Market
-- Revenue Trend (Time Series)
+- Revenue Trend Analysis
 - Top 5 Customers by Revenue
 - Top 5 Products by Revenue
 
@@ -105,7 +104,7 @@ A proper relational model was created connecting:
 
 ## 📌 Dashboard Preview
 
-![Dashboard](dashboard.png)
+![Dashboard Preview](dashboard.png)
 
 ---
 
@@ -114,18 +113,17 @@ A proper relational model was created connecting:
 - Delhi NCR generates the highest revenue.
 - Low-performing markets were identified for improvement.
 - A small number of customers and products contribute the majority of revenue (Pareto Principle).
-- Seasonal fluctuations are visible in revenue trends.
+- Seasonal revenue trends help identify peak business periods.
 
 ---
 
 ## 📊 DAX Measures Used
 
-```DAX
-Revenue = SUM(sales_amount)
-Sales Quantity = SUM(sales_qty)
-Revenue LY (Last Year Comparison)
-Profit Margin %
-Revenue Contribution %
+- **Revenue** = `SUM(sales_amount)`
+- **Sales Quantity** = `SUM(sales_qty)`
+- **Revenue LY (Last Year Comparison)**
+- **Profit Margin %**
+- **Revenue Contribution %**
 
 ---
 
@@ -143,10 +141,8 @@ Revenue Contribution %
 - SQL Querying
 - Data Cleaning & Transformation
 - Data Modeling
-- ETL Process
 - Power Query
 - DAX Calculations
-- KPI Development
 - Dashboard Design
 - Business Intelligence
 - Data Visualization
@@ -155,23 +151,22 @@ Revenue Contribution %
 
 ## 📁 Project Files
 
-```
-Sales-Insights-Project
-│
-├── Atliq_Hardware_Sales_Data_Analysis.pbix
-├── dashboard.png
-├── data-model.png
-└── README.md
-```
+| File | Description |
+|------------|------------------------------|
+| **Atliq_Hardware_Sales_Data_Analysis.pbix** | Power BI dashboard |
+| **README.md** | Project documentation |
+| **dashboard.png** | Dashboard preview |
+| **data-model.png** | Data model diagram |
 
 ---
 
 ## ⭐ Conclusion
 
-This project showcases an end-to-end Business Intelligence workflow—from SQL data extraction and cleaning to Power BI dashboard development and DAX calculations. The final dashboard enables stakeholders to monitor KPIs, identify trends, and make faster, data-driven business decisions.
+This project demonstrates an end-to-end Business Intelligence workflow using **SQL, Power BI, Power Query, and DAX**. By transforming raw sales data into interactive dashboards and actionable insights, it enables stakeholders to monitor performance, identify trends, and make informed business decisions.
 
 ---
 
 ## 🙌 Support
 
-If you found this project useful, consider giving it a ⭐ on GitHub!
+If you found this project helpful or learned something from it, consider giving this repository a ⭐ on GitHub!
+```
