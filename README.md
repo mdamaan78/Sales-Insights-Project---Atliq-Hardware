@@ -1,22 +1,22 @@
-# 🚀 Sales Insights Data Analysis (AtliQ Hardware)
+# 🚀 Sales Insights Dashboard | Power BI & SQL Project
 
 ## 📌 Project Overview
 
-This project focuses on analyzing sales data of **AtliQ Hardware**, a company dealing in computer hardware and peripherals across India.
+This project analyzes sales data from **AtliQ Hardware**, a company specializing in computer hardware and peripherals across India.
 
-The goal was to build an interactive **Power BI dashboard** that helps stakeholders track key business metrics and make data-driven decisions instead of relying on manual reporting.
+The objective is to transform raw sales data into actionable business insights through an interactive **Power BI dashboard**, enabling stakeholders to monitor key performance indicators, identify trends, and make data-driven decisions.
 
 ---
 
 ## ❗ Problem Statement
 
-The Sales Director faced challenges such as:
+The Sales Director faced several business challenges:
 
-- No centralized dashboard to track performance
+- No centralized dashboard to monitor sales performance
 - Reliance on verbal updates from regional managers
-- Declining sales with no clear insights into the cause
+- Declining sales without clear visibility into the root cause
 
-👉 This project provides a single source of truth for sales performance.
+**Solution:** A centralized and interactive Power BI dashboard that provides a single source of truth for business performance.
 
 ---
 
@@ -25,52 +25,53 @@ The Sales Director faced challenges such as:
 - Analyze sales trends across different markets
 - Identify top-performing customers and products
 - Track revenue and sales quantity over time
-- Enable quick and informed decision-making
+- Enable faster and informed business decisions
 
 ---
 
 ## 🛠️ Tools & Technologies
 
 | Tool | Purpose |
-|------------|------------------------------|
+|----------------|--------------------------------|
 | **SQL (MySQL)** | Data extraction & analysis |
-| **Power BI** | Dashboard & visualization |
+| **Power BI** | Dashboard development & visualization |
 | **Power Query** | Data cleaning & transformation |
-| **DAX** | Calculated measures & KPIs |
+| **DAX** | KPI calculations & business metrics |
 
 ---
 
 ## 📂 Dataset Information
 
-The dataset consists of multiple tables:
+The project uses the following tables:
 
-- **sales_transactions** → Sales data (amount, date, product, market)
-- **sales_customers** → Customer details
-- **sales_products** → Product information
-- **sales_markets** → Market/region data
-- **sales_date** → Date hierarchy
+- **sales_transactions** – Transaction details
+- **sales_customers** – Customer information
+- **sales_products** – Product information
+- **sales_markets** – Market/region details
+- **sales_date** – Date hierarchy
 
 ---
 
 ## 🔄 Data Cleaning & Transformation
 
-- Removed invalid values (0 or negative sales)
+- Removed invalid (zero or negative) sales values
 - Converted USD transactions into INR
-- Filtered duplicate and irrelevant records
-- Built a star schema data model
+- Removed duplicate and irrelevant records
+- Standardized data formats
+- Built a star schema for efficient reporting
 
 ---
 
 ## 📊 Data Modeling
 
-A proper relational model was created connecting:
+The data model establishes relationships between:
 
 - Transactions → Customers
 - Transactions → Products
 - Transactions → Markets
 - Transactions → Date
 
-👉 Ensures efficient and scalable analysis.
+This star schema improves query performance and enables scalable business analysis.
 
 ---
 
@@ -82,7 +83,7 @@ A proper relational model was created connecting:
 
 ## 📈 Dashboard Features
 
-### 📊 KPIs
+### 📊 Key Performance Indicators (KPIs)
 
 - 💰 Total Revenue: **₹985M**
 - 📦 Total Sales Quantity: **2M**
@@ -95,7 +96,7 @@ A proper relational model was created connecting:
 - Top 5 Customers by Revenue
 - Top 5 Products by Revenue
 
-### 🎛️ Filters
+### 🎛️ Interactive Filters
 
 - Year Slicer
 - Month Slicer
@@ -112,8 +113,8 @@ A proper relational model was created connecting:
 
 - Delhi NCR generates the highest revenue.
 - Low-performing markets were identified for improvement.
-- A small number of customers and products contribute the majority of revenue (Pareto Principle).
-- Seasonal revenue trends help identify peak business periods.
+- A small number of customers and products contribute the majority of total revenue (Pareto Principle).
+- Revenue trends reveal seasonal business patterns.
 
 ---
 
@@ -129,10 +130,10 @@ A proper relational model was created connecting:
 
 ## 💡 Business Impact
 
-- Eliminates manual reporting
+- Reduces manual reporting efforts
 - Provides real-time business insights
-- Helps identify growth opportunities
-- Supports faster, data-driven decision-making
+- Identifies growth opportunities across markets
+- Enables faster, data-driven decision-making
 
 ---
 
@@ -141,9 +142,10 @@ A proper relational model was created connecting:
 - SQL Querying
 - Data Cleaning & Transformation
 - Data Modeling
+- ETL Process
 - Power Query
 - DAX Calculations
-- Dashboard Design
+- Dashboard Development
 - Business Intelligence
 - Data Visualization
 
@@ -152,21 +154,20 @@ A proper relational model was created connecting:
 ## 📁 Project Files
 
 | File | Description |
-|------------|------------------------------|
+|-------------------------------|--------------------------------|
 | **Atliq_Hardware_Sales_Data_Analysis.pbix** | Power BI dashboard |
 | **README.md** | Project documentation |
-| **dashboard.png** | Dashboard preview |
+| **dashboard.png** | Dashboard preview image |
 | **data-model.png** | Data model diagram |
 
 ---
 
 ## ⭐ Conclusion
 
-This project demonstrates an end-to-end Business Intelligence workflow using **SQL, Power BI, Power Query, and DAX**. By transforming raw sales data into interactive dashboards and actionable insights, it enables stakeholders to monitor performance, identify trends, and make informed business decisions.
+This project demonstrates an end-to-end Business Intelligence workflow using **SQL, Power BI, Power Query, and DAX**. It showcases how raw sales data can be transformed into meaningful insights that help stakeholders monitor performance, identify trends, and make informed business decisions.
 
 ---
 
 ## 🙌 Support
 
-If you found this project helpful or learned something from it, consider giving this repository a ⭐ on GitHub!
-```
+If you found this project helpful or learned something from it, consider giving this repository a ⭐ on GitHub
