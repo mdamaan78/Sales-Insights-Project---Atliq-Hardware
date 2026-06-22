@@ -122,18 +122,10 @@ A proper relational model was created connecting:
 
 ```DAX
 Revenue = SUM(sales_amount)
-
 Sales Quantity = SUM(sales_qty)
-
-Revenue LY =
-CALCULATE(
-    [Revenue],
-    SAMEPERIODLASTYEAR('Date'[Date])
-)
-
-Profit Margin % =
-DIVIDE([Profit], [Revenue], 0)
-```
+Revenue LY (Last Year Comparison)
+Profit Margin %
+Revenue Contribution %
 
 ---
 
