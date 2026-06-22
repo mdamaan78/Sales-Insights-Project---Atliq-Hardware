@@ -1,4 +1,4 @@
-# 🚀 Sales Insights Dashboard | Power BI & SQL Project
+# 🚀 Sales Insights Dashboard | (AtliQ Hardware)
 
 ## 📌 Project Overview
 
