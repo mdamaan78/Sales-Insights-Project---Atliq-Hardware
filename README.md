@@ -1,4 +1,4 @@
-# 🚀 Sales Insights Dashboard | (AtliQ Hardware)
+# 🚀 Sales Insights Data Analysis | (AtliQ Hardware)
 
 ## 📌 Project Overview
 
